@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto 0 auto;
+    background-image: url("../images/fresh_snow.png");
+}
+
+.header {
+    overflow: auto;
+    border-bottom: 1px solid #cccccc;
+    background: #ffffff;
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+}
+
+#name {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px;
+    width: 210px;
+    float: left;
+}
+
+#menu {
+    padding: 10px;
+    float: right;
+    margin-right: 75px;
+}
+
+main {
+    max-width: 750px;
+    margin: 0 auto 0 auto;
+}
+
+#about {
+    clear: both;
+    float: left;
+    width: 55%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+    background: #ffffff;
+}
+
+#profile {
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+#connect {
+    margin-top: 30px;
+    margin-right: 75px;
+    padding: 10px;
+    float: right;
+    border: 1px solid #dddddd;
+    width: 25%;
+    background: #ffffff;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1px 10px 1px 10px;
+}
+
+p {
+    color: #777777;
+}
+
+a {
+    color: #777777;
+}
