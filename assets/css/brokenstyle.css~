@@ -3,27 +3,40 @@ body {
     background-image: url("../images/fresh_snow.png");
 }
 
-.header {
-    overflow: auto;
+header {
+    position: absolute;
     border-bottom: 1px solid #cccccc;
-    background: #ffffff;
+    background-color: #ffffff;
     width: 100%;
-    padding: 1px;
-    margin: 1px;
+    height: 7rem;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    height: 9.5rem;
+}
+
+.banner {
+    position: relative;
+    margin: 0.5rem auto;
+    padding: 5px;
+    height: 2.5rem;
+    max-width: 700px;
+    line-height: 1em;
 }
 
 #name {
+    float: left;
     background: #4aaaa5;
     color: white;
     padding: 10px;
     width: 210px;
-    float: left;
+    margin: 1px;
 }
 
 #menu {
-    padding: 10px;
     float: right;
-    margin-right: 75px;
+    padding: 10px;
+    width: 200px;
 }
 
 main {
