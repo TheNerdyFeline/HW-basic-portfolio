@@ -1,6 +1,7 @@
 body {
     margin: 0 auto 0 auto;
     background-image: url("../images/fresh_snow.png");
+    max-width: 960px;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
     width: 100%;
-    height: 90px;
+    height: 66px;
     top: 0;
     left: 0;
     margin-bottom: 20px;
@@ -17,7 +18,7 @@ header {
 .banner {
     position: relative;
     margin: auto;
-    height: 100px;
+    height: 60px;
     max-width: 960px;
 }
 
@@ -25,26 +26,21 @@ header {
     float: left;
     background: #4aaaa5;
     color: white;
-    font-size: 34px;
+    font-size: 28px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
-    padding: 26px;
+    padding: 17px;
     width: 250px;
     margin: 0px;
 }
 
 #menu {
     float: right;
-    padding: 23px 0px 15px 0;
+    padding: 10px 0px 15px 0;
     margin-top: 14px;
     line-height: 10px;
 }
 
-main {
-    clear: both;
-    max-width: 960px;
-    margin: 0 auto 0 auto;
-}
 
 .mn {
     clear: both;
@@ -52,7 +48,7 @@ main {
     width: 596px;
     padding: 26px;
     border: 1px solid #dddddd;
-    margin-top: 130px;
+    margin-top: 100px;
     background: #ffffff;
 }
 
@@ -63,11 +59,11 @@ main {
 }
 
 sidebar {
-    margin-top: 130px;
+    margin-top: 100px;
     width: 220px;
     padding: 24px;
     float: right;
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
     background: #ffffff;
 }
 
@@ -75,10 +71,10 @@ h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 28px;
     padding: 14px 0px 16px 0px;
     margin: 0;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
 }
 
 h3 {
@@ -104,7 +100,7 @@ a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px;
 }
 .border {
@@ -151,4 +147,55 @@ input {
     color: white;
     font-size: 20px;
     border: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.image {
+    width: 260px;
+    height: 180px;
+}
+
+.right {
+    float: right;
+    width: 270px;
+    height: 180px;
+    padding: 20px 10px 10px 0px;
+    position: relative;
+}
+
+.left {
+    float: left;
+    width: 260px;
+    height: 180px;
+    padding: 20px 10px 10px 0px;
+    position: relative;
+}
+
+.label {
+    width: 260px;
+    height: 30px;
+    padding-top: 12px;
+    background: #4aaaa5;
+    text-align: center;
+    margin-top: 132px;
+    position: absolute;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #666666;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    border-top: 5px solid #4aaaa5;
+    margin-top: 10px;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 16px;
 }

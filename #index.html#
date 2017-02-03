@@ -5,6 +5,7 @@
 	<link href="assets/css/style.css" rel="stylesheet">
     </head>
     <body>
+	<div class="wrapper">
 	<header>
 	    <div class="banner">
 		<h1 id="name">Jackie Wellons</h1>
@@ -16,18 +17,11 @@
 	    </div>
 	</header>
 	    <!-- class is main using mn to avoid confusion -->
-	    <div class="mn">
-		<h2>Contact</h2>
-		<form>
-		    Name<br>
-		    <input type="text" name="name"><br>
-		    Email<br>
-		    <input type="text" email="email"><br>
-		    Message<br>
-		    <textarea name="message" rows="12" cols="72"></textarea>
-		    <input id="submit" type="submit" value="Submit">
-		</form>
-	    </div>
+	<div class="mn">
+	    <h2>About Me</h2>
+	    <img id="profile" src="assets/images/Kenzithots.jpg">
+	<p>Hello, my name is Jackie Wellons and I am a student programmer.  I am currently enrolled in Ucla Extension Coding Boot Camp.  I have a bachelor's degree from Pennsylvania State University in Theatre Technology. I spent the majority of my time learning visual design, and have used my training to design quilts and websites.  I am currently learning full stack web development and look forward to expanding my site with everything that I learn.</p>
+	</div>
 	<sidebar id="connect">
 	    <h3>Connect with Me</h3>
 	    <nav>
@@ -36,8 +30,9 @@
 	    <a href="http://stackexchange.com/users/9925984/jackie-wellons" title="stackoverflow"><img class="icons" src="assets/images/stackoverflow.png"</a>
 	    </nav>
 	</sidebar>
+	</div>
 	<footer>
-	    <p id="copyright">Copyright 2017 Jackie Wellons</p>
+		<p id="copyright">Copyright 2017 Jackie Wellons</p>
 	</footer>
     </body>
 </html>
